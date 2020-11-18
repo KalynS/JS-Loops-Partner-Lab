@@ -17,8 +17,37 @@
 
 //     }
 
-let results = "";
-for (let i = 0; i <= 6; i++) {
-  results += " " + i;
-  console.log(results);
+// let results = "";
+// for (let i = 0; i <= 6; i++) {
+//   results += " " + i;
+//   console.log(results);
+// }
+
+let a = prompt("Enter number.")
+let b = prompt("Enter another number.")
+let result= greatestDenominator(a, b);
+console.log(result)
+
+
+function greatestDenominator(a, b){
+  let remainder = a % b 
+
+  if (remainder == 0){
+    return b
+
+
+  }
+
+
+let remainderB = b % remainder
+let result = remainder / remainderB 
+return remainderB
+
 }
+
+
+
+
+
+
+
