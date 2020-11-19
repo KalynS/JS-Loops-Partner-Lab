@@ -23,30 +23,35 @@
 //   console.log(results);
 // }
 
-let a = prompt("Enter number.")
-let b = prompt("Enter another number.")
-let result= greatestDenominator(a, b);
-console.log(result)
+// let a = prompt("Enter number.")
+// let b = prompt("Enter another number.")
+// let result= greatestDenominator(a, b);
+// console.log(result)
 
 
-function greatestDenominator(a, b){
-  let remainder = a % b 
+// function greatestDenominator(a, b){
+//   let remainder = a % b 
 
-  if (remainder == 0){
-    return b
-
-
-  }
+//   if (remainder == 0){
+//     return b
 
 
-let remainderB = b % remainder
-let result = remainder / remainderB 
-return remainderB
+//   }
 
+
+// let remainderB = b % remainder
+// let result = remainder / remainderB 
+// return remainderB
+
+// }
+
+
+// console.log("Meters" + "     " + "Yards");
+
+for(let i = 10; i <= 300; i += 10){
+  let m = i * 1.094;
+  console.log("Meters: " + i + "              Yards: " + m)
 }
-
-
-
 
 
 
