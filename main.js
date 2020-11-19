@@ -37,13 +37,41 @@
 
 //   }
 
+//   }
+
+
 // let remainderB = b % remainder
 // let result = remainder / remainderB 
 // return remainderB
 
 // }
 
+// console.log("Meters" + "     " + "Yards");
 
+// for(let i = 10; i <= 300; i += 10){
+//   let m = i * 1.094;
+//   console.log("Meters: " + i + "              Yards: " + m)
+// }
+for (let i=0; i<10; i++){
+    console.log(i)
+}
+
+
+
+
+// let numberOne = prompt("Enter a number.")
+// let numberTwo = prompt("Enter a number.")
+// let numberThree = prompt("Enter a number.")
+// let numberFour = prompt("Enter a number.")
+// let numberFive = prompt("Enter a number.")
+// let numberSix = prompt("Enter a number.")
+// let numberSeven = prompt("Enter a number.")
+// let numberEight = prompt("Enter a number.")
+// let numberNine = prompt("Enter a number.")
+// let numberTen = prompt("Enter a number.")
+
+// let inputArray= [numberOne, numberTwo, numberThree, numberFour, numberFive, numberSix, numberSeven, numberEight, numberNine, numberTen];
+// console.log(inputArray)
 
 
 
